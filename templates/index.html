@@ -1,1 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
 
+		<title>Volunteer</title>
+
+		<meta name="description" 
+					content="Ask for help and volunteer services">
+		<meta name="keywords" content="volunteer, service">
+		<meta name="author" content= "James Beeson, Joshua Thomas">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!--favicon-->
+		<link rel="shortcut icon"
+    href="{{ url_for('static', filename='img/favicon.png') }}">
+
+		<!--CSS stylesheet-->
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+		
+		<!--JQuery script-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+			</script>
+		<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+	</head>
+	<body>
+		<h1>Volunteer</h1>
+		<p>Hello World!</p>
+	</body>
+</html>

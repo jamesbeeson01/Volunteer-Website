@@ -3,6 +3,6 @@ $(document).ready(function(){
 		$(this).css("color", "yellow");
 	}, 
 	function(){
-		$(this).css("color", "blue");
+		$(this).css("color", "red");
 	});
 });

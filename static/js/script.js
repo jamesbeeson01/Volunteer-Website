@@ -13,11 +13,7 @@ $(document).ready(function(){
 		$(this).css("background-color", "#4ad0e3");
 	});
 	
-	$("#new_project_button").onclick(function(){
-		$("#new_project_form").css("display", "block");
-	});
-	
-	$("#close_button").onclick(function(){
-		$("#new_project_form").css("display", "none");
+	$("#new_project_button").click(function (){
+		{ { return redirect(url_for("newproject")) } }
 	});
 });

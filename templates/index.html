@@ -5,24 +5,12 @@
 		<p>Hello World!</p>
 	</div>
 
-	<div id="new_project_button">
-    +
-	</div>
+	<a href="{{ url_for('newproject') }}">
+		<div id="new_project_button">
+			+
+		</div>
+	</a>
 
-	<form id="new_project_form">
-		<h2>New Project</h2>
-		<p>I need</p>
-		<input type="text" placeholder="# volunteers" name="num_volunteers">
-		<input type="text" placeholder="type of volunteer" name="type_volunteers">
-		<p>volunteers to</p>
-		<input type="text" placeholder="what the task is" name="task">
-		<p></p>on/by 
-		<input type="text" placeholder="date" name="date">
-		<p></p>at 
-		<input type="text" placeholder="location" name="location">
-		<h3>More info:</h3>
-		<input type="text" 
-					 placeholder="Describe the project in more detail. Why should they help? What do they need to bring or have to volunteer?" 
-					 name="more_info">
-	</form>
+	<p id="new_project_text">Create New Project</p>
+
 {% endblock %}

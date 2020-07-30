@@ -22,6 +22,7 @@ main {
 	top: 56px;
 	max-width: 700px;
 	margin: 0 auto;
+	padding: 12px;
 }
 
 #new_project_button {
@@ -29,10 +30,18 @@ main {
 	right: 50px;
 	bottom: 50px;
 	background-color: #4ad0e3;
-	width: 50px;
-	height: 50px;
+	width: 70px;
+	height: 70px;
 	text-align: center;
-	font-size: 30px;
+	font-size: 40px;
 	border-radius: 100%;
 	color: white;
+}
+
+p#new_project_text {
+	color: blue;
+}
+
+form p, input:not([type='button']):not([type='submit']) {
+	display: inline-block;
 }

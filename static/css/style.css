@@ -39,7 +39,13 @@ main {
 }
 
 p#new_project_text {
-	color: blue;
+	color: #565656;
+	position: relative;
+	text-align: right;
+	right: 370px;
+	top: -60px;
+	white-space: nowrap;
+	display: none;
 }
 
 form p, input:not([type='button']):not([type='submit']) {

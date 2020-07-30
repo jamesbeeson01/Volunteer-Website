@@ -5,5 +5,9 @@ app = Flask(__name__)
 def home():
 	return render_template("index.html")
 
+@app.route('/new_project')
+def newproject():
+	return render_template("newproject.html")
+
 if __name__ == "__main__":
 	app.run(debug=True)
